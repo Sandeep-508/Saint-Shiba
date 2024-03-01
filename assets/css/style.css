@@ -1,9 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
+* {
+    list-style: none !important;
+    text-decoration: none !important;
+    box-sizing: border-box !important;
+    transition: all 200ms linear;
+}
+
 :root {
     --nav_color: #070402;
     --section_color: #0C0B0B;
     --overflow_sec_clr: #1D1A1A;
+    --orange_clr: #FF5300;
 
     --fm: "Poppins", sans-serif;
 
@@ -29,4 +37,82 @@
     --lh-61: 61px;
     --lh-95: 95px;
 
+}
+
+p {
+    margin: 0;
+}
+
+.py-15 {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.saint {
+    font-weight: var(--fw-400);
+    font-size: var(--fs-36);
+    line-height: var(--lh-54);
+    font-family: var(--fm);
+    color: white;
+}
+
+.shiba {
+    font-weight: var(--fw-700);
+    font-size: var(--fs-36);
+    line-height: var(--lh-54);
+    color: var(--orange_clr);
+    font-family: var(--fm);
+}
+
+.bg_clr {
+    background-color: var(--nav_color);
+}
+
+.items {
+    font-family: var(--fm);
+    font-weight: var(--fw-400);
+    font-size: var(--fs-18);
+    line-height: var(--lh-32);
+    color: white;
+}
+
+.connect {
+    background: linear-gradient(90deg, #FFA800 0%, #F06500 100%);
+    font-family: var(--fm);
+    font-size: var(--fs-18);
+    font-weight: var(--fw-600);
+    line-height: var(--lh-32);
+    color: white;
+    border-radius: 25px;
+    border: none;
+}
+
+.connect:hover {
+    background: linear-gradient(90deg, #FFFFFF, #FFFFFF);
+    color: var(--orange_clr);
+}
+
+.items {
+    position: relative;
+}
+
+.items::before {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 3px;
+    background-color: var(--orange_clr);
+    bottom: 0;
+    transition: all 300ms linear;
+}
+
+.items:hover::before {
+    width: 100%;
+}
+
+.bg_img {
+    background-image: url(../png/first_section_img.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }

@@ -143,6 +143,12 @@ p {
     border-radius: 10px;
 }
 
+@media (min-width: 576px) {
+    .changes {
+        position: relative;
+        transform: translate(0, -130px);
+    }
+}
 
 .adjustments {
     right: 0;
@@ -164,13 +170,6 @@ p {
 
 .bg_change {
     background-color: var(--section_color);
-}
-
-@media (min-width: 576px) {
-    .changes {
-        position: relative;
-        transform: translate(0px, -140px);
-    }
 }
 
 @media (max-width: 575.9px) {

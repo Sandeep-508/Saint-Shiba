@@ -116,3 +116,22 @@ p {
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+.orci {
+    font-family: var(--fm);
+    font-weight: var(--fw-700);
+    font-size: var(--fs-96);
+    line-height: var(--lh-95);
+}
+
+.pt-66 {
+    padding-top: 66px;
+}
+
+.velit {
+    font-family: var(--fm);
+    font-weight: var(--fw-400);
+    font-size: var(--fs-22);
+    line-height: var(--lh-33);
+    color: white;
+}

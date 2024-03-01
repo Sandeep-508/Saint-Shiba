@@ -14,7 +14,7 @@
     <!-- Navbar -->
 
     <section>
-        <nav class="bg_clr position-fixed w-100 py-15">
+        <nav class="bg_clr position-fixed w-100 py-15 z-3">
             <div class="container">
                 <div class="d-flex align-items-center justify-content-between">
                     <div class="d-flex align-items-center">
@@ -40,28 +40,83 @@
 
     <!-- wolf picure Section with backlground image -->
 
-    <section class="bg_img min-vh-100 d-flex">
+    <section class="bg_img min-vh-100 d-flex position-relative">
         <div class="container flex-grow-1 d-flex align-items-center justify-content-center">
-            <div class="row pt-66">
-                <div class="col-lg-6 d-flex justify-content-center flex-column">
+            <div class="row pt-100">
+                <div class="col-lg-6 d-flex justify-content-center flex-column py-2">
                     <p class="orci text-white">Accumsan ut orci vitae</p>
                     <p class="velit pt-3 pb-4">Velit eget sit nibh fringilla risus ullamcorper malesuada. Morbi nulla
                         suscipit
                         dolor, volutpat
                         quam at urna donec
                         rutrum. In vulputate congue arcu in et.</p>
-                    <div>
+                    <div class="d-flex">
                         <button class="connect px-4 py-2 shadow">Connect Wallet</button>
                     </div>
                 </div>
-                <div class="col-lg-6">
+                <div class="col-lg-6 py-2">
                     <div class="d-flex align-items-center justify-content-center">
                         <img src="./assets/png/fox_img.png" alt="fox in the clotehs of human" class="w-100 h-100">
                     </div>
                 </div>
             </div>
         </div>
+        <div class="position-absolute bottom-0">
+            <img src="./assets/png/blur_bottom.png" alt="blur images" class="w-100 h-100">
+        </div>
     </section>
+
+    <!-- blur image section -->
+
+    <section class="bg_change position-relative">
+        <div class="container brdr backDrop changes p-3">
+            <div class="d-flex flex-column align-items-start">
+                <p class="curus pb-3">Cursus ligula habitant sed integer.</p>
+                <p class="lorem text-white">Urna, dictum volutpat augue tortor. Fermentum vulputate convallis
+                    viverra
+                    facilisis. Aliquam
+                    porttitor sem rhoncus
+                    rhoncus, quis. Arcu, ut enim eget pellentesque neque. Nibh pellentesque lobortis etiam sed.
+                    Cursus donec porttitor fames
+                    tellus. At ut donec nec aliquet ipsum leo tellus amet lacus. Varius mi urna blandit id magna
+                    tellus imperdiet tortor.
+                    Volutpat nec vulputate diam tristique facilisi in turpis vel elit.</p>
+                <p class="lorem text-white max_md_none pt-2">Urna, dictum volutpat augue tortor. Fermentum vulputate
+                    convallis
+                    viverra
+                    facilisis. Aliquam
+                    porttitor sem rhoncus
+                    rhoncus, quis. Arcu, ut enim eget pellentesque neque. Nibh pellentesque lobortis etiam sed.
+                    Cursus donec porttitor fames
+                    tellus. At ut donec nec aliquet ipsum leo tellus amet lacus. Varius mi urna blandit id magna
+                    tellus imperdiet tortor.
+                    Volutpat nec vulputate diam tristique facilisi in turpis vel elit.</p>
+            </div>
+        </div>
+        <div class="position-absolute adjustments z-1">
+            <img src="./assets/png/dotted_lines_img.png" alt="dotted_lines_img">
+        </div>
+        <div class="container py_40">
+            <div class="row">
+                <div class="col-lg-6 d-flex justify-content-center flex-column py-2 position-relative z-2">
+                    <p class="curus">Cursus ligula habitant sed integer.</p>
+                    <p class="lorem text-white pt-3 pb-4">Urna, dictum volutpat augue tortor. Fermentum vulputate
+                        convallis
+                        viverra facilisis. Aliquam porttitor sem rhoncus
+                        rhoncus, quis. Arcu, ut enim eget pellentesque neque. Nibh pellentesque lobortis etiam sed.
+                        Cursus donec porttitor fames
+                        tellus.</p>
+                    <div class="d-flex">
+                        <button class="connect px-4 py-2 shadow">Learn More</button>
+                    </div>
+                </div>
+                <div class="col-lg-6 py-2 position-relative z-2">
+                    <img src="./assets/png/Third_section_fox_img.png" alt="fox img" class="w-100 h-100">
+                </div>
+            </div>
+        </div>
+    </section>
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
         crossorigin="anonymous"></script>

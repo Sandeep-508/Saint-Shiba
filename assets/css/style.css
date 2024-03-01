@@ -5,6 +5,7 @@
     text-decoration: none !important;
     box-sizing: border-box !important;
     transition: all 200ms linear;
+    /* outline: 1px solid black; */
 }
 
 :root {
@@ -28,6 +29,7 @@
     --fs-48: 48px;
     --fs-96: 96px;
     --fs-22: 22px;
+    --fs-60: 60px;
 
     --lh-54: 54px;
     --lh-32: 32px;
@@ -117,15 +119,15 @@ p {
     background-size: cover;
 }
 
-.orci {
-    font-family: var(--fm);
-    font-weight: var(--fw-700);
-    font-size: var(--fs-96);
-    line-height: var(--lh-95);
+.pt-100 {
+    padding-top: 100px;
 }
 
-.pt-66 {
-    padding-top: 66px;
+.orci {
+    font-family: var(--fm);
+    font-weight: var(--fw-600);
+    font-size: var(--fs-60);
+    line-height: var(--lh-61);
 }
 
 .velit {
@@ -134,6 +136,75 @@ p {
     font-size: var(--fs-22);
     line-height: var(--lh-33);
     color: white;
+}
+
+.brdr {
+    border: 3px solid #FFFFFF;
+    border-radius: 10px;
+}
+
+
+.adjustments {
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.backDrop {
+
+    backdrop-filter: blur(50px);
+}
+
+.lorem {
+    font-family: var(--fm);
+    font-weight: var(--fw-400);
+    font-size: var(--fs-18);
+    line-height: var(--lh-32);
+}
+
+.bg_change {
+    background-color: var(--section_color);
+}
+
+@media (min-width: 576px) {
+    .changes {
+        position: relative;
+        transform: translate(0px, -140px);
+    }
+}
+
+@media (max-width: 575.9px) {
+    .py_40 {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+}
+
+@media (min-width: 1399.9px) {
+    .orci {
+        font-family: var(--fm);
+        font-weight: var(--fw-700);
+        font-size: var(--fs-96);
+        line-height: var(--lh-95);
+    }
+
+    .curus {
+        font-family: var(--fm);
+        font-weight: var(--fw-600);
+        font-size: var(--fs-48);
+        line-height: var(--lh-61);
+        color: white;
+    }
+}
+
+@media (max-width: 1399.9px) {
+    .curus {
+        font-family: var(--fm);
+        font-weight: var(--fw-500);
+        font-size: var(--fs-36);
+        line-height: var(--lh-54);
+        color: white;
+    }
 }
 
 @media (max-width: 1023.9px) {
@@ -168,5 +239,19 @@ p {
 
     .show {
         left: 0;
+    }
+
+
+    /* other font prop */
+
+    .orci {
+        font-family: var(--fm);
+        font-weight: var(--fw-700);
+        font-size: var(--fs-48);
+        line-height: var(--lh-54);
+    }
+
+    .max_md_none {
+        display: none;
     }
 }

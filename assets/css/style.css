@@ -308,6 +308,15 @@ p {
     color: white;
 }
 
+.per:hover {
+    color: var(--orange_clr);
+    cursor: pointer;
+}
+
+.cursor {
+    cursor: pointer;
+}
+
 table {
     width: 100%;
     text-align: center;

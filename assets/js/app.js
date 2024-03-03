@@ -35,3 +35,9 @@ accordion.forEach(element => {
         }
     });
 });
+
+let home = document.querySelector(".home");
+
+home.addEventListener("click", () => {
+
+});

@@ -308,6 +308,22 @@ p {
     color: white;
 }
 
+.w-h-adjust {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: var(--orange_clr);
+}
+
+.pos-adjust {
+    bottom: 20px;
+    right: 20px;
+}
+
+.show_scroll {
+    display: none;
+}
+
 .per:hover {
     color: var(--orange_clr);
     cursor: pointer;

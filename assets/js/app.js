@@ -36,8 +36,30 @@ accordion.forEach(element => {
     });
 });
 
-let home = document.querySelector(".home");
+let scroll_to_top = document.querySelector(".show_scroll");
+let scroll_pt = 400;
 
-home.addEventListener("click", () => {
-
+window.addEventListener("scroll", () => {
+    if (document.documentElement.scrollTop < scroll_pt) {
+        scroll_to_top.style.display = "none";
+    } else {
+        scroll_to_top.style.display = "block";
+    }
 });
+
+
+scroll_to_top.addEventListener("click", () => {
+    window.scrollTo({
+        top: 0,
+        behavior: "smooth"
+    });
+});
+
+let home = document.querySelectorAll(".items");
+home.forEach(otherelement => {
+    otherelement.addEventListener("click", () => {
+        console.log("Home button clicked");
+        view.classList.remove("show");
+    });
+})
+

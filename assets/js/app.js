@@ -58,7 +58,7 @@ scroll_to_top.addEventListener("click", () => {
 let home = document.querySelectorAll(".items");
 home.forEach(otherelement => {
     otherelement.addEventListener("click", () => {
-        console.log("Home button clicked");
+        // console.log("Home button clicked");
         view.classList.remove("show");
     });
 })

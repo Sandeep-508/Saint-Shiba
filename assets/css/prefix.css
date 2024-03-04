@@ -669,7 +669,7 @@ section {
     background-color: var(--section_color);
 
     .color_ch {
-        background-color: var(--orange_clr);
+        background: linear-gradient(90deg, #FFA800 0%, #F06500 100%);
     }
 
     .num {

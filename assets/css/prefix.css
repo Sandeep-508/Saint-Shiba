@@ -219,7 +219,7 @@ p {
 }
 
 .w-h-changes {
-    width: 50px;
+    min-width: 50px;
     height: 50px;
     background-color: white;
     border-radius: 50%;
@@ -626,6 +626,25 @@ section {
     }
 }
 
+@media (max-width: 576px) {
+    .donec {
+        font-family: var(--fm);
+        font-weight: var(--fw-400);
+        font-size: var(--fs-18);
+        line-height: var(--lh-25);
+        color: white;
+    }
+
+    .amet_lorem {
+        font-family: var(--fm);
+        font-weight: var(--fw-400);
+        font-size: var(--fs-14);
+        line-height: var(--lh-25);
+        color: white;
+        display: none;
+    }
+}
+
 @media (max-width: 768px) {
     .lorem_text {
         font-family: var(--fm);
@@ -667,7 +686,7 @@ section {
     }
 
     .w-h-changes {
-        width: 70px;
+        min-width: 70px;
         height: 70px;
         background-color: white;
         border-radius: 50%;

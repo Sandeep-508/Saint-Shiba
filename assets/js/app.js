@@ -2,6 +2,12 @@ let icon = document.querySelector("#menuicon");
 let view = document.querySelector(".lg-view");
 icon.addEventListener("click", () => {
     view.classList.toggle("show");
+
+    if (view.classList.contains("show")) {
+        body.style.overflow = "hidden";
+    } else {
+        body.style.overflow = "auto";
+    }
 });
 
 let accordion = document.querySelectorAll(".accord_item");

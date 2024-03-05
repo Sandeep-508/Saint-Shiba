@@ -69,3 +69,9 @@ home.forEach(otherelement => {
     });
 })
 
+gsap.from(".on-top", {
+    y: 20,
+    repeat: -1,
+    yoyo: true,
+    duration: 1,
+});

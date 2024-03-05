@@ -342,6 +342,30 @@ p {
     background-color: var(--orange_clr);
 }
 
+.gap-32 {
+    gap: 32px;
+}
+
+.pt-32 {
+    padding-top: 32px;
+}
+
+.pb-22 {
+    padding-bottom: 22px;
+}
+
+.p-24 {
+    padding: 24px;
+}
+
+.background {
+    background: linear-gradient(90deg, #FFA800 0%, #F06500 100%);
+}
+
+.background:hover {
+    background: linear-gradient(90deg, #FFA800 100%, #F06500 0%);
+}
+
 .pos-adjust {
     bottom: 20px;
     right: 20px;

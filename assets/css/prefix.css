@@ -346,6 +346,10 @@ p {
     gap: 32px;
 }
 
+.pt_40px {
+    padding-top: 40px;
+}
+
 .pt-32 {
     padding-top: 32px;
 }

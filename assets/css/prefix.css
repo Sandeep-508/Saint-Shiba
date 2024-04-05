@@ -350,6 +350,11 @@ p {
     padding-top: 40px;
 }
 
+.py_40px {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
 .pt-32 {
     padding-top: 32px;
 }
@@ -652,6 +657,22 @@ section {
     .text_right {
         text-align: left;
     }
+
+    .max_w_lorem {
+        max-width: 290px;
+    }
+
+    .some_align_prop {
+        display: flex;
+        align-items: end;
+        justify-content: end;
+    }
+
+    .some_align_prop_right {
+        display: flex;
+        align-items: start;
+        justify-content: start;
+    }
 }
 
 @media (max-width: 576px) {
@@ -670,6 +691,10 @@ section {
         line-height: var(--lh-25);
         color: white;
         display: none;
+    }
+
+    .fs_max_sm {
+        font-size: var(--fs-22);
     }
 }
 
@@ -763,6 +788,10 @@ section {
         font-size: var(--fs-48);
         line-height: var(--lh-61);
         color: white;
+    }
+
+    .pb_lg_400px {
+        padding-bottom: 400px;
     }
 }
 
